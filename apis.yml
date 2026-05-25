@@ -1,0 +1,98 @@
+aid: nile-com
+name: Nile
+description: >-
+  Nile is a San Jose, California enterprise networking company delivering
+  an AI-native Secure Network as a Service (NaaS). Founded in 2018 by former
+  Cisco executives Pankaj Patel and John Chambers (chairman), Nile replaces
+  traditional campus and branch LAN/Wi-Fi hardware-and-license procurement
+  with a subscription-based, outcome-guaranteed wired and wireless network
+  stack delivered as a service. The Nile Access Service combines its
+  purpose-built Zero Trust Fabric (switches, access points, gateways, and
+  sensors) with cloud-based autonomous operations, the Nile Services Cloud,
+  Nile AI, Nile Nav, and Nile Digital Twin to plan, deploy, monitor, and
+  self-heal enterprise networks. The platform emphasizes built-in Zero Trust
+  segmentation, continuous performance guarantees (coverage, capacity,
+  availability), and consumption-based pricing — marketed against 60%+
+  breach reduction, 99%+ ticket reduction, ~3x faster change management,
+  and ~40% TCO savings versus traditional enterprise networking. Nile does
+  not publish a general-purpose public developer API, OpenAPI specification,
+  SDK, CLI, or Terraform provider; its programmable surface is limited to a
+  closed admin/portal API and outbound webhooks used for documented
+  integrations with ServiceNow (ticket and alert webhooks), Splunk HEC,
+  CrowdStrike, Zscaler ZIA, Microsoft Entra (SCIM), Microsoft Intune,
+  Microsoft Global Secure Access, Palo Alto Networks, Forescout (device
+  inventory API), SecureW2, Aruba ClearPass, VeloCloud, Graphiant, Hamina,
+  and Ekahau. Nile is available through the AWS Marketplace as a SaaS
+  subscription.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Networking
+  - Enterprise Networking
+  - Network As A Service
+  - NaaS
+  - Wi-Fi
+  - LAN
+  - Campus Networking
+  - Branch Networking
+  - Zero Trust
+  - Zero Trust Networking
+  - SASE
+  - SSE
+  - Network Security
+  - Network Automation
+  - AIOps
+  - AI Native Networking
+  - Autonomous Networking
+  - Cloud Managed Networking
+  - Digital Twin
+  - Webhooks
+url: https://raw.githubusercontent.com/api-evangelist/nile-com/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://nilesecure.com
+  - type: Platform
+    url: https://nilesecure.com/secure-naas
+  - type: Product
+    url: https://nilesecure.com/products
+  - type: Documentation
+    url: https://docs.nilesecure.com
+  - type: Resources
+    url: https://nilesecure.com/resources
+  - type: IntegrationGuides
+    url: https://nilesecure.com/resources/integration-guide
+  - type: ServiceNowWebhookAlerts
+    url: https://nilesecure.com/resources/integration-guide/webhook-integration-sending-alerts-to-servicenow
+  - type: ServiceNowWebhookTickets
+    url: https://nilesecure.com/resources/integration-guide/webhook-integration-servicenow-tickets-from-mynile
+  - type: SplunkIntegration
+    url: https://nilesecure.com/resources/integration-guide
+  - type: AWSMarketplace
+    url: https://aws.amazon.com/marketplace/pp/prodview-fvnd5s24uahdc
+  - type: Portal
+    url: https://my.nilesecure.com
+  - type: Company
+    url: https://nilesecure.com/company
+  - type: News
+    url: https://nilesecure.com/news
+  - type: Blog
+    url: https://nilesecure.com/blog
+  - type: Careers
+    url: https://nilesecure.com/careers
+  - type: Contact
+    url: https://nilesecure.com/contact
+  - type: Twitter
+    url: https://twitter.com/nilesecure
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/nile-global
+  - type: YouTube
+    url: https://www.youtube.com/@NileSecure
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
