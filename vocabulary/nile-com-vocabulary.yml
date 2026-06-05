@@ -1,0 +1,150 @@
+vocabulary:
+  name: Nile Secure Network as a Service Vocabulary
+  description: >-
+    Key concepts and terms used by Nile (nilesecure.com) in the context of its
+    AI-native Secure Network as a Service (NaaS) platform for enterprise campus
+    and branch wired and wireless networking.
+  version: "1.0.0"
+  terms:
+
+    - term: NaaS
+      definition: >-
+        Network as a Service — a subscription-based consumption model in which
+        network infrastructure (hardware, software, operations, and support) is
+        delivered as a managed outcome-guaranteed service rather than procured
+        as capital equipment with separate licenses.
+      tags:
+        - business-model
+        - networking
+        - subscription
+
+    - term: Zero Trust Fabric
+      definition: >-
+        Nile's purpose-built hardware stack — comprising switches, Wi-Fi access
+        points, gateways, and sensors — designed with built-in Zero Trust
+        segmentation principles so that every device and user is continuously
+        verified before gaining network access.
+      tags:
+        - security
+        - zero-trust
+        - hardware
+        - infrastructure
+
+    - term: Nile Services Cloud
+      definition: >-
+        The cloud-based autonomous operations platform that manages, monitors,
+        and self-heals the Nile Access Service, including AI-driven analytics,
+        policy enforcement, and lifecycle management for all connected sites.
+      tags:
+        - cloud
+        - operations
+        - platform
+        - AIOps
+
+    - term: Nile Digital Twin
+      definition: >-
+        A virtual replica of a physical campus or branch network used for
+        planning, simulation, and predictive troubleshooting before and after
+        deployment, reducing change-management risk.
+      tags:
+        - digital-twin
+        - network-planning
+        - simulation
+
+    - term: Site
+      definition: >-
+        A physical location (campus building, branch office, or floor) managed
+        within the Nile Access Service. Each site has its own inventory of
+        access points, switches, and connected clients.
+      tags:
+        - topology
+        - location
+        - network-management
+
+    - term: Client
+      definition: >-
+        An end-user device (laptop, smartphone, IoT sensor, etc.) connected to
+        the Nile network. The Forescout integration exposes a public client-list
+        API providing real-time device inventory with site and time-window
+        filters.
+      tags:
+        - device
+        - endpoint
+        - inventory
+
+    - term: Segment
+      definition: >-
+        A logical network partition enforced by the Zero Trust Fabric that
+        isolates groups of users or devices from one another based on identity,
+        role, or policy — delivered without relying on traditional VLAN
+        sprawl.
+      tags:
+        - segmentation
+        - zero-trust
+        - policy
+
+    - term: Guest Access Code
+      definition: >-
+        A time-limited, programmatically-generated credential (code) issued
+        through the Nile portal API to grant temporary Wi-Fi access to visitors
+        without enrolling them into the primary network segment.
+      tags:
+        - guest-access
+        - authentication
+        - api
+
+    - term: Webhook
+      definition: >-
+        An outbound HTTP callback sent by the Nile platform when a defined
+        network event occurs (e.g., a client association failure or a
+        performance degradation alert). Documented integrations target
+        ServiceNow (tickets and alerts) and Splunk HEC.
+      tags:
+        - integration
+        - event-driven
+        - notification
+
+    - term: Performance Guarantee
+      definition: >-
+        Contractual SLAs covering coverage, capacity, and availability metrics
+        continuously measured by the Nile Services Cloud and reported via the
+        portal, backing Nile's outcome-based subscription model.
+      tags:
+        - sla
+        - quality-of-service
+        - monitoring
+
+    - term: Nile Nav
+      definition: >-
+        Nile's AI-powered network navigation and recommendation engine that
+        provides guided troubleshooting, predictive capacity planning, and
+        change management advice within the Services Cloud portal.
+      tags:
+        - ai
+        - AIOps
+        - operations
+        - recommendation
+
+    - term: SCIM
+      definition: >-
+        System for Cross-domain Identity Management — the standard protocol
+        used by Nile's Microsoft Entra integration to synchronize user
+        identities and group memberships into the Nile platform for
+        policy-based network segmentation.
+      tags:
+        - identity
+        - provisioning
+        - microsoft-entra
+        - integration
+
+    - term: Zero Trust Segmentation
+      definition: >-
+        A security model enforced by the Nile fabric in which access to network
+        resources is granted based on continuous verification of device identity
+        and user context, reducing lateral movement risk and supporting
+        regulatory compliance.
+      tags:
+        - security
+        - zero-trust
+        - compliance
+        - segmentation

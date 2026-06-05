@@ -1,0 +1,103 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "nile": "https://nilesecure.com/vocab#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Organization": "schema:Organization",
+    "name": "schema:name",
+    "url": "schema:url",
+    "description": "schema:description",
+    "foundingDate": "schema:foundingDate",
+    "location": "schema:location",
+    "industry": "schema:industry",
+    "sameAs": "schema:sameAs",
+
+    "NaaS": {
+      "@id": "nile:NaaS",
+      "@type": "@id"
+    },
+    "ZeroTrustFabric": {
+      "@id": "nile:ZeroTrustFabric",
+      "@type": "@id"
+    },
+    "AccessPoint": {
+      "@id": "nile:AccessPoint",
+      "@type": "@id"
+    },
+    "Switch": {
+      "@id": "nile:Switch",
+      "@type": "@id"
+    },
+    "Gateway": {
+      "@id": "nile:Gateway",
+      "@type": "@id"
+    },
+    "Sensor": {
+      "@id": "nile:Sensor",
+      "@type": "@id"
+    },
+    "Site": {
+      "@id": "nile:Site",
+      "@type": "@id"
+    },
+    "Client": {
+      "@id": "nile:Client",
+      "@type": "@id"
+    },
+    "Segment": {
+      "@id": "nile:Segment",
+      "@type": "@id"
+    },
+    "GuestAccessCode": {
+      "@id": "nile:GuestAccessCode",
+      "@type": "@id"
+    },
+    "NetworkPerformance": {
+      "@id": "nile:NetworkPerformance",
+      "@type": "@id"
+    },
+    "DigitalTwin": {
+      "@id": "nile:DigitalTwin",
+      "@type": "@id"
+    },
+    "Webhook": {
+      "@id": "nile:Webhook",
+      "@type": "@id"
+    },
+    "Alert": {
+      "@id": "nile:Alert",
+      "@type": "@id"
+    },
+    "Ticket": {
+      "@id": "nile:Ticket",
+      "@type": "@id"
+    },
+    "ServicesCloud": {
+      "@id": "nile:ServicesCloud",
+      "@type": "@id"
+    },
+    "Integration": {
+      "@id": "nile:Integration",
+      "@type": "@id"
+    },
+
+    "siteId": { "@id": "nile:siteId", "@type": "xsd:string" },
+    "clientId": { "@id": "nile:clientId", "@type": "xsd:string" },
+    "macAddress": { "@id": "nile:macAddress", "@type": "xsd:string" },
+    "ipAddress": { "@id": "nile:ipAddress", "@type": "xsd:string" },
+    "ssid": { "@id": "nile:ssid", "@type": "xsd:string" },
+    "vlan": { "@id": "nile:vlan", "@type": "xsd:integer" },
+    "signalStrength": { "@id": "nile:signalStrength", "@type": "xsd:float" },
+    "connectedAt": { "@id": "nile:connectedAt", "@type": "xsd:dateTime" },
+    "status": { "@id": "nile:status", "@type": "xsd:string" },
+    "webhookUrl": { "@id": "nile:webhookUrl", "@type": "xsd:anyURI" },
+    "eventType": { "@id": "nile:eventType", "@type": "xsd:string" },
+    "severity": { "@id": "nile:severity", "@type": "xsd:string" },
+    "timestamp": { "@id": "nile:timestamp", "@type": "xsd:dateTime" },
+    "coverageScore": { "@id": "nile:coverageScore", "@type": "xsd:float" },
+    "capacityScore": { "@id": "nile:capacityScore", "@type": "xsd:float" },
+    "availabilityScore": { "@id": "nile:availabilityScore", "@type": "xsd:float" }
+  }
+}
