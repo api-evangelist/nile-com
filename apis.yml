@@ -42,6 +42,27 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nile-com.p
 tags:
   - Networking
   - Enterprise Networking
+  - Network as a Service
+  - NaaS
+  - Wi-Fi
+  - LAN
+  - Campus Networking
+  - Branch Networking
+  - Zero Trust
+  - Zero Trust Networking
+  - SASE
+  - SSE
+  - Network Security
+  - Network Automation
+  - AIOps
+  - AI Native Networking
+  - Autonomous Networking
+  - Cloud-Managed Networking
+  - Digital Twin
+  - Webhook
+tags_raw:
+  - Networking
+  - Enterprise Networking
   - Network As A Service
   - NaaS
   - Wi-Fi
